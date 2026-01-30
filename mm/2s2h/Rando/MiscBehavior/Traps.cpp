@@ -58,6 +58,9 @@ std::vector<std::string> defaultTrapMessages = {
     "Error 404: Item Not Found",
     "Get dunked on!",
     "This %rTrap%w is brought to you by today's sponsor...\n%gRaid Shadow Legends%w!",
+    "That won't do you any good. Hee, hee.",
+    "You've met with a terrible fate, haven't you?",
+    "You shouldn't have done that...",
 };
 
 std::vector<std::string> freezeTrapMessages = {
@@ -69,6 +72,9 @@ std::vector<std::string> freezeTrapMessages = {
     "How much does a polar bear weigh? Enough to break the %bice%w.",
     "You found the %yTrifo%w... Wait, nevermind...",
     "Quick Time Event! Don't die.",
+    "Noelle cast ICESHOCK!",
+    "Watch what happens when I cast a spell I don't know!",
+    "Did you know? Kuzan is much faster and can freeze his opponents.",
 };
 
 std::vector<std::string> blastTrapMessages = {
@@ -117,6 +123,7 @@ std::vector<std::string> timeTrapMessages = {
     "Break time! Not like the world is ending right?",
     "I just need you to tell me how to get to the %ytime machine%w.",
     "Mweep",
+    "The %btime for heaven%w. It has finally arrived...",
 };
 
 std::map<TrapTypes, std::vector<std::string>> trapMessageList = {
